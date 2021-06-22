@@ -4,6 +4,7 @@ Given n processes we would like to build a self-stabilizing algorithm which at a
 
 First we will arrange the processes in a circle:
 
+![2](https://user-images.githubusercontent.com/57844508/122905615-0a676e00-d35a-11eb-9764-3b7905bc4bb4.png)
 
 
 
@@ -34,14 +35,17 @@ For each of the processes an arbitrary initial value will be drawn and the follo
   o Take a step (each process performs exactly one step "synchronous system" ) .
 
   o Exit
+
+
+
+To run the code :
+
+      gcc HW4.c 
+      ./a.out
   
-  
-  To run the code :
-  
-  
-  
-  
-  Example : 
-  
+Example : 
+
+  ![3](https://user-images.githubusercontent.com/57844508/122905544-fc195200-d359-11eb-8d43-82f3f4ae2696.png)
+
   
   
